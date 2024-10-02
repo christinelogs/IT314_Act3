@@ -1,0 +1,36 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#game-header {
+  background-color: #007bff;
+  text-align: center;
+}
+
+.score-table {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+#results {
+  background-color: #f8f9fa;
+  padding: 10px;
+}
+
+.team-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-link:hover {
+  color: #0056b3;
+}
+
+#submit-answer:hover {
+  background-color: #0056b3;
+}
+
+#start-game:hover {
+  background-color: #28a745;
+}
